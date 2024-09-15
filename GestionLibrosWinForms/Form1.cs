@@ -53,7 +53,7 @@ namespace GestionLibrosWinForms
                 }
                 else
                 {
-                    MessageBox.Show("El libro no pudo ser prestado. Verifique si ya est· prestado.");
+                    MessageBox.Show("El libro no pudo ser prestado. Verifique si ya est√° prestado.");
                 }
 
                 txtNombreUsuario.Clear();
@@ -78,11 +78,11 @@ namespace GestionLibrosWinForms
                 if (exito)
                 {
                     MessageBox.Show("El libro ha sido devuelto exitosamente.");
-                    ActualizarComboBoxLibros();
+                    //ActualizarComboBoxLibros();
                 }
                 else
                 {
-                    MessageBox.Show("El libro no pudo ser devuelto. Verifique si est· prestado a este usuario.");
+                    MessageBox.Show("El libro no pudo ser devuelto. Verifique si est√° prestado a este usuario.");
                 }
 
                 txtNombreUsuario.Clear();
